@@ -15,8 +15,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "webpack.config.js"
+            },
             "outputPath": "dist/angular-purgecss",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -28,6 +31,8 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/mdbootstrap/css/bootstrap.min.css",
+              "node_modules/mdbootstrap/css/mdb.min.css",
               "src/styles.scss"
             ],
             "scripts": []

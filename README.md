@@ -1,3 +1,5 @@
+[Angular CLI + TailwindCSS + PurgeCSS](https://medium.com/@joao.a.edmundo/angular-cli-tailwindcss-purgecss-2853ef422c02)
+
 # AngularPurgecss
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
